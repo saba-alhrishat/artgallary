@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -73,10 +72,32 @@ Route::get('/dashboadr1', function () {
     return view('dash.layout.contentdash1');
 });
 
+
+Route::get('/admin/loginadmin', function () {
+    return view('admin.loginadmin');
+})->name('admin.loginadmin');
+
+
+
+Route::get('/admin/registeradmin', function () {
+    return view('admin.registeradmin');
+})->name(name: 'admin.registeradmin');
+
+
+Route::get('/admin/home', function () {
+    return view('admin.home');
+})->name(name: 'admin.home');
+
+
+
+
+
+
+
+
+
 // routes/web.php
 
 
-Route::middleware('auth')->group(function () {
-    Route::resource('users', UserController::class);
-});
+
 
