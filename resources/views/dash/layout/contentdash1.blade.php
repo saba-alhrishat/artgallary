@@ -212,9 +212,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/id.png"
-                            alt="indonesia"
-                          />
+                          src="{{ asset('assets/img/flags/id.png') }}"
+                          alt="indonesia"
+                        />
+                        
                         </div>
                       </td>
                       <td>Indonesia</td>
@@ -225,9 +226,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/us.png"
-                            alt="united states"
-                          />
+                          src="{{ asset('assets/img/flags/us.png') }}"
+                          alt="united states"
+                        />
+                        
                         </div>
                       </td>
                       <td>USA</td>
@@ -238,9 +240,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/au.png"
-                            alt="australia"
-                          />
+                          src="{{ asset('assets/img/flags/au.png') }}"
+                          alt="australia"
+                        />
+                        
                         </div>
                       </td>
                       <td>Australia</td>
@@ -251,9 +254,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/ru.png"
-                            alt="russia"
-                          />
+                          src="{{ asset('assets/img/flags/ru.png') }}"
+                          alt="russia"
+                        />
+                        
                         </div>
                       </td>
                       <td>Russia</td>
@@ -264,9 +268,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/cn.png"
-                            alt="china"
-                          />
+                          src="{{ asset('assets/img/flags/cn.png') }}"
+                          alt="china"
+                        />
+                        
                         </div>
                       </td>
                       <td>China</td>
@@ -277,9 +282,10 @@
                       <td>
                         <div class="flag">
                           <img
-                            src="assets/img/flags/br.png"
-                            alt="brazil"
-                          />
+                          src="{{ asset('assets/img/flags/br.png') }}"
+                          alt="brazil"
+                        />
+                        
                         </div>
                       </td>
                       <td>Brasil</td>
@@ -339,10 +345,11 @@
             <div class="item-list">
               <div class="avatar">
                 <img
-                  src="assets/img/jm_denis.jpg"
-                  alt="..."
-                  class="avatar-img rounded-circle"
-                />
+                src="{{ asset('assets/img/jm_denis.jpg') }}"
+                alt="..."
+                class="avatar-img rounded-circle"
+              />
+              
               </div>
               <div class="info-user ms-3">
                 <div class="username">Jimmy Denis</div>
@@ -376,10 +383,11 @@
             <div class="item-list">
               <div class="avatar">
                 <img
-                  src="assets/img/talha.jpg"
-                  alt="..."
-                  class="avatar-img rounded-circle"
-                />
+                src="{{ asset('assets/img/talha.jpg') }}"
+                alt="..."
+                class="avatar-img rounded-circle"
+              />
+              
               </div>
               <div class="info-user ms-3">
                 <div class="username">Talha</div>
@@ -395,10 +403,11 @@
             <div class="item-list">
               <div class="avatar">
                 <img
-                  src="assets/img/chadengle.jpg"
-                  alt="..."
-                  class="avatar-img rounded-circle"
-                />
+                src="{{ asset('assets/img/chadengle.jpg') }}"
+                alt="..."
+                class="avatar-img rounded-circle"
+              />
+              
               </div>
               <div class="info-user ms-3">
                 <div class="username">Chad</div>

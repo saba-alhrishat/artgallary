@@ -15,29 +15,18 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/"><span class="col_1">Art</span> Gallery</a>
+                  <a class="navbar-brand" href="/list"><span class="col_1">Art</span>Gallery</a>
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                      <ul class="nav navbar-nav">
                   <li><a class="m_tag active_tab" href="/">Home</a></li>
                   <li><a class="m_tag" href="/about">About Us</a></li>
-                  <li class="dropdown">
-                        <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Gallery<span class="caret"></span></a>
-                        <ul class="dropdown-menu drop_1" role="menu">
-                          <li><a href="/list">Paintings</a></li>
-                          {{-- <li><a class="border_none" href="/detail">Product Detail</a></li> --}}
-                        </ul>
-                     </li>
-                  {{-- <li class="dropdown">
-                        <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
-                        <ul class="dropdown-menu drop_1" role="menu">
-                          <li><a href="/blog">Blog</a></li>
-                          <li><a class="border_none" href="/blog_detail">Blog Detail</a></li>
-                        </ul>
-                     </li> --}}
+                  <li class="m_tag">
+                        <a class="m_tag" href="{{route('list')}}">Gallery<span class="caret"></span></a>     
+                    </li>
                   <li><a class="m_tag" href="/login">Register</a></li>
                   <li><a class="m_tag" href="/contact">Contact Us</a></li>
-                  <li class="dropdown dropdown-large">
+                  {{-- <li class="dropdown dropdown-large">
                   <a href="#" class="dropdown-toggle m_tag border_none" data-toggle="dropdown">More<b class="caret"></b></a>
                   
                   <ul class="dropdown-menu dropdown-menu-large row">
@@ -72,9 +61,8 @@
                   </ul>
                   
                   
-              </li>
+              </li> --}}
               </ul>
-                   
                    
               </div>		
       </nav>

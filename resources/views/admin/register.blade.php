@@ -21,7 +21,7 @@
        <div class="register_1l clearfix">
 {{-- start form register admin --}}
 
-        <form method="POST" action="{{ route('register') }}">
+        <form method="POST" action="{{ route('admin.register') }}">
             @csrf
             <div class="register_1li clearfix">
              <h3 class="mgt">Welcome to Integer.com</h3>
@@ -166,7 +166,8 @@
       </div>
       <div class="col-sm-6">
        <div class="register_1r clearfix">
-        <img  src="{{ asset('imgart/himg/h1.jpg') }}" class="iw" alt="Register Image">	 </div>
+        <img  src="{{ asset('imgart/himg/h1.jpg') }}" class="iw" alt="Register Image">
+    	 </div>
       </div>
      </div>
     </div>

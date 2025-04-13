@@ -23,7 +23,7 @@
 
 {{-- start form login admin --}}
 
-        <form method="POST" action="{{ route('login') }}">
+        <form method="POST" action="{{ route('admin.login') }}">
             @csrf
             <div class="register_1li clearfix">
              <h3 class="mgt">Welcome Back to Integer.com</h3>

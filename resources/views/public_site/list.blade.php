@@ -23,7 +23,7 @@
             <div class="center_shop_1li clearfix">
          <h5 class="mgt">HOME</h5>
           <div class="ziehharmonika">
-              <h3 data-prefix="★" class="active"><a href="detail.html">Gallery</a><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div></h3>
+              <h3 data-prefix="★" class="active"><a href="detail.htm0l">Gallery</a><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div><div class="arrowDown"></div><div class="collapseIcon">–</div></h3>
               <div class="clickable" style="display: block;">
                 <ul>
                  <li><a href="detail.html">Furniture</a></li>
@@ -341,6 +341,39 @@
      </div>
     </div>
   </section>
+  
+<script type="text/javascript">
+  $(document).ready(function(){
+    /*****Fixed Menu******/
+    var secondaryNav = $('.cd-secondary-nav'),
+       secondaryNavTopPosition = secondaryNav.offset().top;
+       navbar_height = document.querySelector('.navbar').offsetHeight;
+       
+      $(window).on('scroll', function(){
+          if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
+          secondaryNav.addClass('is-fixed');	
+          document.body.style.paddingTop = navbar_height + 'px';
+          
+        } else {
+          secondaryNav.removeClass('is-fixed');
+          document.body.style.paddingTop = '0'
+        }
+      });	
+      
+  });
+  </script>
+  
+  <script src="js/ziehharmonika.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+      $('.ziehharmonika').ziehharmonika({
+        collapsible: true,
+        prefix: '★',
+        scroll: false
+      });
+    });
+  </script>
   
 
 
